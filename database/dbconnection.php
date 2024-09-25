@@ -14,7 +14,7 @@ class Database {
         ]) {
             // scan what domain is 
             $this->host = "localhost";
-            $this->db_name = "itelec02";
+            $this->db_name = "itelec313";
             $this->username = "root";
             $this->password = "";
         } else {
