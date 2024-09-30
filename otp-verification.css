@@ -1,0 +1,57 @@
+/* Style for the OTP page background */
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(90deg, #e5e0ed, #bbcedb);
+}
+
+/* Style for the OTP form box */
+form {
+    background: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+}
+
+/* Style for the heading */
+h1 {
+    color: #000;
+    font-size: 1.8em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+input[type="number"] {
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    width: 100%;
+    font-size: 1em;
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #2cb027;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    width: 100%;
+}
+
+/* Hover effect for the button */
+button:hover {
+    background-color: #1f9ea2;
+}
